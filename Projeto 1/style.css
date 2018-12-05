@@ -1,0 +1,160 @@
+/*Reset
+------------------------------------------------------------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+
+	font-family: arial, verdana, helvetica ;
+}
+
+body{
+	color: #959595;
+}
+a{
+	text-decoration: none;
+	color:#f71d1d;
+}
+a:hover{
+	color: #900;
+}
+
+ul{
+	list-style: none;
+}
+h1, h2{
+	color: darkred;
+}
+
+
+/*Geral
+------------------------------------------------------------------------*/
+.row{
+	width: 100%;
+	float: left;
+}
+.container{
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+/*Header
+------------------------------------------------------------------------*/
+.header{
+	padding: 10px 0;
+}
+
+.header-logo{
+	float: left;
+}
+
+.header-logo h1 a {
+	color: #959595;
+}
+
+.header-logo h1 a span.sHtml{
+	color: lightblue;
+}
+
+.header-logo h1 a span.sCss{
+	color: #e54d26;
+}
+
+.header-menu{
+	float: right;
+	padding: 5px 0 ;  
+}
+
+.header-menu ul li{
+	display: inline-block;
+	margin-left: 25px;
+}
+
+/*Bem vindo
+------------------------------------------------------------------------*/
+.bem-vindo{
+	background-color:#ff6969;
+	padding: 20px;
+	text-align: center;
+	color:#FFF;
+}
+.bem-vindo .container{
+	width: 620px;
+}
+.bem-vindo .container h1{
+	color: #FFF;
+}
+
+/*Main
+------------------------------------------------------------------------*/
+.main{
+	padding: 20px 0;
+}
+.main-menu{
+	float: left;
+	width: 150px;
+	font-size: 18px;
+}
+.main-menu h1{
+	font-size:20px;
+}
+.main-menu ul li{
+	margin-top: 20px;
+}
+
+.main-conteudo{
+	float: right;
+	width: 850px;
+}
+.main-conteudo h1{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.main-conteudo p{
+	margin-bottom: 30px;
+}
+
+/*Artigos
+------------------------------------------------------------------------*/
+.artigos{
+	background-color: lightpink;
+	padding: 25px 0;
+}
+.artigos-titulo{
+	font-size: 30px;
+	color: #f71d1d;
+	margin: 0 0 15px 0;
+	padding: 0 0 10px 0;
+	border-bottom:solid 3px #f71d1d;
+}
+.artigos-coluna:nth-of-type(2){
+	margin-right: 4%;
+	margin-left: 4%;
+}
+.artigos-coluna{
+	float:left;
+	align-items : justify;
+	width: 30.66%;
+}
+
+.artigos-coluna h2{
+	font-size: 20px;
+	margin-bottom: 10px: 
+
+}
+
+
+.artigos-coluna a{
+	color: #900;
+}
+.artigos-coluna a:hover{
+	text-decoration: underline;
+}
+
+/*Artigos
+------------------------------------------------------------------------*/
+.footer{
+	text-align: center;
+	padding: 20px 0;
+}
