@@ -231,8 +231,6 @@ input, textarea{
 	padding: 10px 5px;
 }
 
-
-
 .formulario p input[type="reset"]{
 	background-color:#ff3838;
 	cursor: pointer;
@@ -250,6 +248,11 @@ input, textarea{
 .formulario p input:hover[type="submit"]{
 	background-color: green;
 }
+
+
+
+/* Footer
+--------------------------------------------------*/
 .footer {
 	padding: 30px 0;
 }
