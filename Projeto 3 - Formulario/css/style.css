@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: arial, verdana, helvetica;
+	box-sizing: border-box;
+}
+form {
+	width: 98%;
+	max-width: 600px;
+	margin: 10px auto;
+	text-align: center;
+	font-family: verdana, helvetica;
+}
+form fieldset{
+	padding: 20px 40px;
+	border: 1px solid #ccc;
+}
+
+form legend{
+	text-align: right;
+	color: darkblue;
+	font-size: 24px;
+}
+form input[type=text], form input[type=email] {
+	text-align: left;
+	padding: 10px 14px;
+	width: 80%;
+	margin-top: 5px;
+	font-family: verdana, helvetica;
+	border:solid 1px #ccc;
+
+}
+form input:focus, form select:focus, form textarea:focus{
+	outline: 0;
+}
+
+form select {
+	width: calc(80% + 30px);
+	font-size: 14px;
+	padding: 10px 14px;
+	margin-top: 20px;
+	display: inline-block;
+	border:1px solid #ccc;
+}
+form select option:nth-of-type(4){
+	color: pink;
+}
+form h2{
+	margin: 20px 0;
+	color: #666;
+}
+.input-radio, .input-checkbox{
+	display: inline-block; 
+	text-align: left;
+	font-size: 14px;
+}
+.input-radio span, .input-checkbox span{
+	color: darkblue;
+}
+form input[type=radio], form input[type=checkbox]{
+	margin-top: 5px;
+}
+form textarea{
+	padding: 10px 14px;
+	width: 80%;
+	margin-top: 20px;
+	font-family: verdana, helvetica;
+	border:solid 1px #ccc;
+	resize: none;
+	height: 100px;
+}
+
+form input[type=submit], form input[type=reset]{
+	background-color: lightgreen;
+	border:1px solid #000;
+	padding: 10px 14px;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 10px 5px;
+
+}
+
+form input[type=reset]{
+	background-color: red;
+}
+
+

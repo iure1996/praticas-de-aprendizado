@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-witdh, initial-scale=1.0, user-sclable=0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Teste</title>
+	</head>
+	<body>
+		<form method="">
+			<fieldset>
+				<legend>Meu Formulario</legend>
+				<input type="text" name="nome" placeholder="Digite seu nome"><br/>	
+				<input type="email" name="nome" placeholder="Digite seu email"><br/>
+				<select name="lista">
+					<option selected disabled>Selecione</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select><br/>
+				<h2>Qual sua cidade?</h2>
+				<div class="input-radio">
+					<input type="radio" name="cidade" value="lauro"><span>Lauro</span><br>
+					<input type="radio" name="cidade" value="salvador"><span>Salvador</span><br>
+					<input type="radio" name="cidade" value="camacari"><span>Camaçari</span>
+				</div><br>
+				
+				<h2>O que você gosta de comer?</h2>
+				<div class="input-checkbox">
+					<input type="checkbox" name="comidas[]" value="frutas"><span>Frutas</span><br>
+					<input type="checkbox" name="comidas[]" value="verduras"><span>Verduras</span><br>
+					<input type="checkbox" name="comidas[]" value="tras food"><span>Trash Food</span>
+				</div><br>
+				<textarea placeholder="Alguma opinião?"></textarea><br>
+
+				<input type="submit" name="acao" value="Enviar!">
+				<input type="reset" value="Limpar!">
+
+			</fieldset>
+		</form>
+	</body>
+</html>
