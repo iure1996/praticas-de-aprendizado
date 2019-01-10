@@ -1,0 +1,289 @@
+/* Reset Geral
+----------------------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans',  sans-serif;
+}
+
+img{
+	width: 100%;
+}
+
+@font-face{
+	font-family: "Open Sans";
+	src:url(../fonts/OpenSans-light.ttf);
+}
+
+.clear{
+	clear:both;
+}
+
+.row {
+	width: 100%;
+
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin:0 auto;
+}
+/*Header
+------------------------------------*/
+.header{
+	height:100px;
+	padding: 10px 15px;
+	background-color: #BBB;
+
+}
+
+
+.logo1{
+	float: left;
+}
+
+
+.logo2{
+	float: right;
+	padding-top:8px; 
+}
+
+/*Background e Formulário
+------------------------------------*/
+.bg{
+	height: 600px;
+}
+.bg-image{
+	width: 100%;
+	height: 600px;
+	background-image: url(../images/bg-form.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*Form
+--------*/
+.bg-form{
+	background:rgb(255, 255, 255);
+	float: right;
+	width: 100%;
+	max-width: 400px;
+	background-color: #FFF;
+	height: 550px;
+	margin-top: 25px;
+	margin-right:2%;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	box-shadow: 2px 2px 4px #222;
+
+}
+.bg-form h2{
+	border-top-radius:5px;
+	font-weight: bold;
+	background-color: #CCC;
+	font-size:18px;
+	padding: 20px 25px; 
+	margin-bottom: 30px;
+}
+
+
+.bg-form label{
+	padding-left: 20px;
+}
+.bg-form input{
+	width: 90%;
+	height: 40px;
+	margin: 0 20px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	padding: 10px;
+	border: 2px solid color #CCC;
+}
+
+.bg-form input:focus{
+	outline: 0;
+}
+
+.form-submit{
+	margin-top: 20px;
+	text-align: center;
+	display:block;
+
+
+}
+
+.form-submit input[type="submit"]{
+
+	width: 90%;
+	font-size: 24px;
+	height: 50px;
+	background-color: #033C50;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 6px solid #001c26;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+.form-submit input[type="submit"]:hover{
+	background-color: #023350;
+}
+
+.bg-form p{
+	margin-left: 20px;
+}
+
+/*Seta
+------------------------------------*/
+.seta-position{
+	text-align: center;
+}
+.seta{
+	background-image: url(../images/arrow.png);
+	background-image-size:cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	width: 68px;
+	height: 68px;
+	position: relative;
+	top: -30px;
+	display: inline-block;
+
+
+}
+
+/*Chamada
+------------------------------------*/
+.chamada-texto{
+	text-align: center;
+	background-color: #29526d;
+	padding: 70px 0 50px 0;
+	color: #FFF;
+}
+.chamada-texto h2 {
+	width: 98%;
+	max-width: 700px;
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline-block;
+	letter-spacing:0.5px;
+}
+.chamada-texto p {
+	width: 98%;
+	max-width: 700px;
+	font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 10px;
+	letter-spacing:1px;
+}
+
+/*Mosaicos
+------------------------------------*/
+.mosaico-itens{
+	display: flex;
+}
+.mosaico-info{
+	order: 2;
+	width: 40%;
+	font-size: 16px;
+	padding: 70px 30px;
+	background-color: #4683AB;
+	color: #FFF;
+}
+.mosaico-image{
+	width: 60%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+/*Footer
+------------------------------------*/
+.footer-fundo{
+	background: rgb(220, 220, 220);
+	text-align: center;
+	padding: 25px 0;
+}
+
+.footer-fundo img{
+	width:160px;
+	text-align: center;
+} 
+
+/*Responsivo largura 960px
+------------------------------------*/
+@media only screen and (max-width: 960px){
+
+/*Header
+------------*/
+	.header{
+		height: 200px;
+	}
+	.logos{
+	 text-align: center;
+	}
+	.logo1{
+		float: none;
+		max-width: 200px;
+		display: inline-block;
+	}
+	.logo2{
+		float: none;
+		max-width: 200px;
+		padding-top: 25px;
+		display:inline-block;
+	}
+
+/*Formulario
+--------------*/
+	.bg{
+		height: 680px;
+	}
+	.bg-image{
+		text-align: center;
+		height: 680px;
+	}
+	.bg-form{
+		margin-top: 55px;
+		text-align:center;
+		float: none;
+		display: inline-block;
+	}
+}
+
+/*Responsivo largura 768px;
+------------------------------------*/
+
+@media only screen and (max-width: 768px){
+
+/*Mosaico
+-----------------*/
+	.mosaico-itens{
+		display:block;
+	}
+	.mosaico-info{
+		width: 100%;
+	}
+	.mosaico-image{
+		width: 100%;
+		height: 300px;
+	}
+}
+
+/*Responsivo largura 768px;
+------------------------------------*/
+@media only screen and (max-width: 490px){
+	.bg-form{
+		width: 100%;
+		max-width: 350px;
+	}
+}
