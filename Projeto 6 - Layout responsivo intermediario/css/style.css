@@ -1,0 +1,542 @@
+/* Reset
+----------------------------------*/
+
+/*Global*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans',  sans-serif;
+}
+html, body{
+	height: 100%;
+}
+
+/*Centralização e Clear
+----------------------------------*/
+.row{
+	width: 100%;
+}
+
+.container{
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+/*Header
+----------------------------------*/
+header{
+	background-image: url(../images/capa.png);
+	width: 100%;
+	height: 90vh;
+	min-height: 800px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 40px 2%;
+
+}
+/*Logo
+------------------*/
+.logo{
+	float:left;
+	height: 50px;
+	width: 150px;
+	line-height: 50px;
+	text-align: center;
+
+}
+.logo a{
+	color:#FFF;
+	text-decoration: none;
+}
+.logo a:hover{
+	color: #dad;
+}
+/*Menu
+----------------------------------*/
+header .menu-desktop{
+	float: right;
+}
+
+header ul{
+	list-style: none;
+}
+
+header .menu-desktop ul li{
+	float: left;
+	padding-left: 40px;
+}
+header .menu-desktop ul li a:hover{
+	color: #DaD;
+}
+
+header .menu-desktop a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+
+
+header .menu-mobile{
+	display: none;
+	width: 32px;
+	height:32px;
+	background-image: url(../images/menu.png);
+	background-repeat: no-repeat;
+	float: right;
+	background-size: 100% 100%;
+	cursor: pointer;
+	transition: 1s;
+
+}
+header .menu-mobile ul{
+	display: none;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top:80px;
+	left: 0;
+	background-color: #fff;
+	transition: 1s;
+
+}
+header .menu-mobile ul li{
+	border-bottom: 1px solid black;
+	padding: 8px 0;
+}
+header .menu-mobile ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+header .menu-mobile ul li:hover{
+	background-color: #ccc;
+	transition: linear 0.5s;	
+}
+header .menu-mobile:hover ul{
+	display: block;
+	transition: unset 1s;	
+
+}
+
+
+/*Chamada1
+----------------------------------*/
+.chamada1{
+	float: right;
+	width: 100%;
+	max-width: 900px;
+	color: #FFF;
+	padding: 200px 150px;
+}
+.chamada1 h2{
+	max-width: 600px;
+	width: 100%;
+	font-size: 40px;
+	font-weight: 300;
+	margin: 5px 0;
+
+}
+.chamada1 p{
+	max-width: 600px;
+	width: 100%;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+/*Sessão 1
+----------------------------------*/
+.section1{
+	padding: 0 2%;
+	background-color:#472562;
+	height: 400px;
+}
+.section1 .container{
+	max-width:1000px;
+	margin: 0 auto;
+}
+/*Lista*/
+.list-section1{
+	width: 50%;
+	position: relative;
+	top: 40px;
+	left: 100px;
+	color: #FFF;
+	float: left;
+}
+.list-section1 h2{
+	font-size: 26px;
+	font-weight: 300;
+	padding: 10px 20px;
+}
+.list-section1 p{
+	font-weight: 400;
+	padding: 10px 20px;
+	font-size: 15px;
+	padding-bottom: 0;
+}
+.list-section1 ul li{
+	font-size: 15px;
+	margin-left: 40px;
+	font-weight: 400;
+	padding: 5px 0;
+}
+/*Botão*/
+
+.btn-list{
+	text-align: center;
+	margin-top:30px;
+	width: 165px;
+	height: 44px;
+	background-color: #FF703D;
+	border-radius: 30px;
+	line-height: 44px;
+	font-size: 13px;
+	cursor: pointer;
+	margin-left: 20px;
+}
+/*Dispositivo movel*/
+.device-section1{
+	background-image: url(../images/device.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 430px;
+	width: 50%;
+	float: right;
+	position: relative;
+	top: -30px;
+	right: 0px;
+}
+/*Sessão 2
+----------------------------------*/
+
+.section2{
+	text-align: center;
+	padding-left: 2%;
+	padding-right: 2%;
+
+}
+.section2 h2{
+	width: 100%;
+	max-width: 900px;
+	display: inline-block;
+	font-weight: 300;
+	color: #472663;
+}
+.section2 p{
+	font-weight: 400;
+	width: 100%;
+	max-width: 900px;
+	display: inline-block;
+	padding-top: 30px;
+}
+
+/*Mockup*/
+.section-mockup img {
+	width: 100%;
+	max-width: 1000px;
+	position: relative;
+	top: 70px;
+}
+
+}
+/*Sessão 3
+----------------------------------*/
+.section3{
+ width: 100%;
+}
+.container1{
+	color: #fff;
+	width: 50%;
+	background-color:#835FA7;
+	padding:140px 0px 90px 0px;
+	float: left;
+
+}
+.container1 h2 {
+	width: 100%;
+ 	font-weight: 400;
+ 	font-style: italic;
+	font-size: 23px;
+}
+.container1 p {
+    font-size: 15px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+.container2{
+	width: 50%;
+	padding:140px 0px 90px 0px;
+	background: white;
+	float: right;
+
+}
+.wraper-1{
+	width: 100%;
+	max-width: 600px;
+    float: right;
+    padding: 0 30px;
+}
+.wraper-slider{
+	width: 100%;
+	max-width: 600px;
+    float: left;
+}
+
+.title-author{
+	float: left;
+	width: 100%;
+	padding-left: 30px;
+}
+.wraper-title-author{
+	float: left;
+
+}
+.wraper-title-author h2{
+	margin-bottom: 3px;
+	float: left;
+	width: 100%;
+	font-weight: 400;
+	font-size: 25px;
+	color: #232323;
+}
+.wraper-title-author p{
+	width: 100%;
+	font-size: 14px;
+	font-style: italic;
+	color: #888;
+	font-weight: 300;
+}
+
+.img-author{
+	position: relative;
+	top: 8px;
+	width: 40px;
+	height: 40px;
+	left: 10px;
+	border-radius: 20px;
+	background-color: gray;
+	float: left;
+	background-image: url(../images/ft.jpg);
+	background-size: 100% 100%;	
+}
+
+.slide-bollets{
+	width: 100%;
+	padding-left: 30;
+	float: left;
+	margin-top: 10px;
+
+}
+.slide-bollets span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-color: #ccc;
+	border-radius: 8px;
+	margin-right: 4px;
+	cursor: pointer;
+
+}
+.sobre-author{
+	float: left;
+	margin-top: 15px;
+}
+.sobre-author p{
+	color: #232323;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+/*Sessao 4 começa aqui
+--------------------------*/
+.section4{
+	background-color: #472563;
+	padding: 100px 2%;
+}
+
+.form-container{
+	width: 50%;
+	padding-left: 10px;
+	float: left;
+	color: #fff;
+}
+
+.map-container{
+	width: 50%;
+	float: left;
+	padding: 0 10px;
+	color:#fff;
+}
+
+.form-container form h2{
+	width: 100%;
+	font-weight: 300;
+	font-size: 23px;
+ 	margin-bottom: 8px;
+}
+.form-container p{
+	width: 100%;
+	max-width: 400px;	
+	margin-bottom: 15px;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.form-container input{
+	width: 90%;
+	max-width: 480px;
+	margin-bottom: 5px;
+	height: 58px;
+    padding-left: 8px;
+    line-height: 58px;
+    border: 1px solid rgb(200,200,200);
+}
+
+.form-container input:focus, .form-container textarea:focus{
+	outline:none;
+}
+.form-container textarea{
+	padding:10px; 
+	width: 90%;
+	height: 160px;
+	max-width: 480px;
+	resize: none;
+}
+
+.form-container input[type="submit"]{
+	text-align: center;
+	margin-top:15px;
+	width: 165px;
+	height: 44px;
+	background-color: #FF703D;
+	border-radius: 30px;
+	line-height: 44px;
+	font-size: 13px;
+	cursor: pointer;
+	border:none;
+	color: #FFF;
+}
+
+.map-container h2{
+	font-weight: 300;
+	font-size: 23px;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+.map{
+	position: relative;
+	top:0;
+	left: 0;
+	background-color: #FFF;
+	width: 100%;
+	height: auto;
+	border: 5px solid #ccc;
+}
+
+/*Rodapé
+---------------------------------*/
+.footer{
+	background-color: #192123;
+	padding: 40px 2%;
+	color: #fff;
+
+}
+.footer p{
+	float: left;
+}
+
+.footer p:nth-of-type(2){
+	float: right;
+}
+
+/*Responsivo
+-----------------------------------------------------------------*/
+
+@media only screen and (max-width:768px){
+	/*MENU*/
+	header .menu-desktop{
+		display: none;
+	}
+	header .menu-mobile{
+		display: block;
+		transition: linear 2s;
+	}
+	/*Chamada*/
+	.chamada1{
+		text-align: center;
+		float: none;
+		width: 100%;
+		padding: 200px 0 0 0;
+		padding-left: 20px;
+	}
+	/*Sessao 1*/
+	.section1{
+		text-align: center;
+	}
+	.list-section1{
+		padding: 40px 2%;
+		width: 100%;
+		position: static;
+		padding-left: 0;
+		float: none;
+		display: inline-block;
+	}
+	.list-section1 ul{
+		display: inline-block;
+		width: auto;
+		float: none;
+		text-align: left;
+	}
+	/*Botao sessao1*/
+	.btn-list{
+		display: inline-block;
+	}
+	.device-section1{
+		display: none;
+	}
+	/*Sessao 2*/
+	.section2{
+		margin-top:25px;
+	}
+	/*Sessão 4*/
+
+	.form-container{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.form-container p{
+		display: inline-block;
+	}
+
+	.map-container{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.map-container h2{
+		margin-top: 20px;
+	}
+	.map{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 580px){
+	/*Sessão 3*/
+	.container1{
+		width: 100%;
+	}
+	.container2{
+		width: 100%;
+	}
+}
