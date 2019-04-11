@@ -93,7 +93,6 @@ header .menu-mobile{
 	float: right;
 	background-size: 100% 100%;
 	cursor: pointer;
-	transition: 1s;
 
 }
 header .menu-mobile ul{
@@ -104,7 +103,6 @@ header .menu-mobile ul{
 	top:80px;
 	left: 0;
 	background-color: #fff;
-	transition: 1s;
 
 }
 header .menu-mobile ul li{
@@ -117,13 +115,7 @@ header .menu-mobile ul li a{
 
 }
 header .menu-mobile ul li:hover{
-	background-color: #ccc;
-	transition: linear 0.5s;	
-}
-header .menu-mobile:hover ul{
-	display: block;
-	transition: unset 1s;	
-
+	background-color: #ccc;	
 }
 
 
